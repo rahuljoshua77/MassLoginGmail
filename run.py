@@ -84,6 +84,7 @@ def login_email():
             f.write('{0}|{1}\n'.format(email,password))
          
         print(f"[*] [ {email} ] Failed Login Gmail")
+        browser.quit()
 
 def open_browser(k):
     
